@@ -27,7 +27,7 @@ const Header = ({ currentPage, setCurrentPage }) => {
                 onClick={() => setCurrentPage(item.id)}
                 className={`font-medium transition-colors ${
                   currentPage === item.id
-                    ? 'text-orange-600 border-b-2 border-orange-600'
+                    ? 'text-green-600 border-b-2 border-green-600'
                     : 'text-gray-700 hover:text-orange-600'
                 }`}
               >
@@ -37,7 +37,7 @@ const Header = ({ currentPage, setCurrentPage }) => {
           </div>
 
           <div className="hidden md:flex items-center space-x-4">
-            <button className="flex items-center space-x-2 bg-orange-600 text-white px-4 py-2 rounded-lg hover:bg-orange-700 transition-colors">
+            <button className="flex items-center space-x-2 bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors">
               <ShoppingCart size={20} />
               <span>Cart</span>
             </button>
@@ -65,7 +65,7 @@ const Header = ({ currentPage, setCurrentPage }) => {
                   }}
                   className={`text-left py-2 px-4 rounded ${
                     currentPage === item.id
-                      ? 'bg-orange-100 text-orange-600'
+                      ? 'bg-green-100 text-green-600'
                       : 'text-gray-700 hover:bg-gray-100'
                   }`}
                 >

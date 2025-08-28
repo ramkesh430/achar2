@@ -69,7 +69,7 @@ const ProductCard = ({ product, onProductClick }) => {
 
         <button
           onClick={() => onProductClick(product)}
-          className="w-full bg-orange-600 text-white py-2 px-4 rounded-lg hover:bg-orange-700 transition-colors font-semibold"
+          className="w-full bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-green-700 transition-colors font-semibold"
         >
           View Details
         </button>

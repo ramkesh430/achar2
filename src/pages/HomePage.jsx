@@ -4,17 +4,17 @@ import { ArrowRight, Users, Award, Truck, Shield } from 'lucide-react';
 const HomePage = ({ setCurrentPage }) => {
   const features = [
     {
-      icon: <Shield className="w-8 h-8 text-orange-600" />,
+      icon: <Shield className="w-8 h-8 text-green-600" />,
       title: "100% Natural",
       description: "No artificial preservatives or colors, just pure natural ingredients"
     },
     {
-      icon: <Award className="w-8 h-8 text-orange-600" />,
+      icon: <Award className="w-8 h-8 text-green-600" />,
       title: "Traditional Recipe",
       description: "Authentic family recipes passed down through generations"
     },
     {
-      icon: <Truck className="w-8 h-8 text-orange-600" />,
+      icon: <Truck className="w-8 h-8 text-green-600" />,
       title: "Fresh Delivery",
       description: "Direct delivery from our kitchen to your doorstep"
     }
@@ -23,7 +23,7 @@ const HomePage = ({ setCurrentPage }) => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-orange-500 to-red-600 text-white">
+      <section className="bg-gradient-to-r from-green-500 to-green-600 text-white">
         <div className="container mx-auto px-4 py-20">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
@@ -35,14 +35,14 @@ const HomePage = ({ setCurrentPage }) => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button 
                 onClick={() => setCurrentPage('products')}
-                className="bg-white text-orange-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-colors flex items-center justify-center space-x-2"
+                className="bg-white text-green-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-colors flex items-center justify-center space-x-2"
               >
                 <span>Shop Now</span>
                 <ArrowRight size={20} />
               </button>
               <button 
                 onClick={() => setCurrentPage('about')}
-                className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-orange-600 transition-colors"
+                className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-green-600 transition-colors"
               >
                 Our Story
               </button>
@@ -56,19 +56,19 @@ const HomePage = ({ setCurrentPage }) => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-3xl font-bold text-orange-600 mb-2">5000+</div>
+              <div className="text-3xl font-bold text-green-600 mb-2">5000+</div>
               <div className="text-gray-600">Happy Customers</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-orange-600 mb-2">15+</div>
+              <div className="text-3xl font-bold text-green-600 mb-2">15+</div>
               <div className="text-gray-600">Pickle Varieties</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-orange-600 mb-2">10</div>
+              <div className="text-3xl font-bold text-green-600 mb-2">10</div>
               <div className="text-gray-600">Years Experience</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-orange-600 mb-2">4.8</div>
+              <div className="text-3xl font-bold text-green-600 mb-2">4.8</div>
               <div className="text-gray-600">Average Rating</div>
             </div>
           </div>
@@ -102,7 +102,7 @@ const HomePage = ({ setCurrentPage }) => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-orange-600 to-red-600 text-white">
+      <section className="py-16 bg-gradient-to-r from-green-600 to-green-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Ready to Taste Tradition?
@@ -112,7 +112,7 @@ const HomePage = ({ setCurrentPage }) => {
           </p>
           <button 
             onClick={() => setCurrentPage('products')}
-            className="bg-white text-orange-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-colors inline-flex items-center space-x-2"
+            className="bg-white text-green-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-colors inline-flex items-center space-x-2"
           >
             <span>View Products</span>
             <ArrowRight size={20} />
